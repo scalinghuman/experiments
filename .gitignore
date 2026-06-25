@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM
+*.xcresult
+*.xcuserstate
+xcuserdata/
+
+# Android / Gradle
+.gradle/
+**/build/
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
+
+# IDE state
+.idea/
+*.iml
+
+# Secrets and local config
+*.mobileprovision
+*.p8
+*.p12
+*.cer
+.env
+.env.*
+
+# Generated submission/archive artifacts
+*.zip
+*.pdf
+**/main
+docs/articles/substack_article.html
+
+# Logs
+*.log
