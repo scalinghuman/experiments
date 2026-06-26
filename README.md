@@ -44,8 +44,8 @@ The iPhone apps let the user choose the processing provider:
 
 - **Glasshole:** Apple Intelligence, xAI Grok, OpenAI, Anthropic Claude, Google
   Gemini, Ollama, PocketPal, or a custom OpenAI-compatible endpoint.
-- **Food Scanner:** Local iPhone Vision, OpenAI, Anthropic Claude, Google
-  Gemini/Gemma, Ollama vision models, PocketPal, or a custom endpoint.
+- **Food Scanner:** Local iPhone Vision, xAI Grok, OpenAI, Anthropic Claude,
+  Google Gemini/Gemma, Ollama vision models, PocketPal, or a custom endpoint.
 
 Apple Intelligence in Glasshole requires an iPhone 15 Pro model or an iPhone 16
 model or later, with Apple Intelligence enabled. Other supported iOS 26 iPhones
