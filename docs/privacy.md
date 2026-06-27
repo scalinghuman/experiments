@@ -37,7 +37,8 @@ recognition converts that audio into text for summarization and fact-checking.
 Audio recordings are not saved. Session history is stored locally on your
 device.
 
-Use the app only with the consent of everyone being recorded.
+Use the app only with the consent of everyone being recorded and in compliance
+with local laws and regulations where you use it.
 
 When Apple Intelligence is selected on a compatible device, processing runs on
 device. When a third-party, local-network, or custom provider is selected,

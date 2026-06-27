@@ -21,6 +21,9 @@ Edition, referred to here as **Google Glass XE**.
   It starts and stops real-time conversation capture and displays summaries and
   fact-check overlays returned by the companion iPhone app after analysis.
 
+  Use Glasshole only with the consent of everyone being recorded and in
+  compliance with local laws and regulations where it is used.
+
 The free iPhone apps are distributed separately through the Apple App Store.
 The iPhone apps also support standalone operation without Google Glass XE.
 

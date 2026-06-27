@@ -34,7 +34,8 @@ in the iOS app. The Google Glass XE companion APK lets Google Glass Explorer
 Edition start and stop real-time conversation capture and display AI-powered
 fact-check overlays after analysis.
 
-Use Glasshole only with the consent of everyone being recorded.
+Use Glasshole only with the consent of everyone being recorded and in
+compliance with local laws and regulations where you use it.
 
 ## Common Setup
 
