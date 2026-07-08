@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Food Scanner for Google Glass
+title: Food Scanner
 permalink: /apps/foodscanner
 ---
 
-# Food Scanner for Google Glass
+# Food Scanner
 
-Food Scanner for Google Glass is an iPhone app built primarily for Google Glass
-Explorer Edition (Google Glass XE). It also works standalone on iPhone.
+Food Scanner is an iPhone app with optional wearable companion support. It also
+works standalone on iPhone.
 
 The app turns a food photo into an AI-assisted nutrition overlay with estimated
 calories, macros, and concise pros and cons. Users can capture from the iPhone
 camera, choose a photo from the library, or send an image from the optional
-Google Glass XE companion.
+wearable companion.
 
 ## Supported Modes and Models
 
@@ -25,11 +25,11 @@ Google Glass XE companion.
 - PocketPal
 - Custom OpenAI-compatible endpoints
 
-## Google Glass XE Companion
+## Optional Wearable Companion
 
-The optional Google Glass XE companion captures a food image and sends it to
-the iPhone app over local Wi-Fi or iPhone Personal Hotspot. Analysis runs on
-iPhone, and results are displayed back on Google Glass XE.
+The optional wearable companion captures a food image and sends it to the iPhone
+app over local Wi-Fi or iPhone Personal Hotspot. Analysis runs on iPhone, and
+results are displayed back on the companion display.
 
 ## Notes
 
