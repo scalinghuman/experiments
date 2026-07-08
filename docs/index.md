@@ -17,12 +17,12 @@ companion workflow.
 
 [App page](apps/foodscanner.md)
 
-### Glasshole AI for Google Glass
+### Glasshole AI
 
-Glasshole is designed primarily as the iPhone compute companion for Google
-Glass Explorer Edition (Google Glass XE). It also works standalone on iPhone.
-It records audio only when the user starts a session and should be used only
-with the consent of everyone being recorded and in compliance with local laws.
+Glasshole AI works standalone on iPhone and also supports an optional wearable
+companion workflow. It records audio only when the user starts a session and
+should be used only with the consent of everyone being recorded and in
+compliance with local laws.
 
 [App page](apps/glasshole.md)
 
