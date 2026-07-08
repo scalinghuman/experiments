@@ -9,14 +9,13 @@ Created and maintained by
 [Srikantha Ballani (@c0smicdirt)](https://github.com/c0smicdirt) as part of
 [Scaling Human](https://github.com/scalinghuman).
 
-## Google Glass Explorer Edition Companions
+## Companion Experiments
 
-This repository contains Android companion apps for Google Glass Explorer
-Edition, referred to here as **Google Glass XE**.
+This repository contains Android companion apps for wearable hardware.
 
-- **Food Scanner for Google Glass XE** captures a food image and sends it to
-  the companion iPhone app for nutrition analysis, then displays the result on
-  the Google Glass XE prism.
+- **Food Scanner** captures a food image and sends it to the companion iPhone
+  app for nutrition analysis, then displays the result on the companion
+  display.
 - **Glasshole for Google Glass XE** is an AI-powered conversation fact-checker.
   It starts and stops real-time conversation capture and displays summaries and
   fact-check overlays returned by the companion iPhone app after analysis.
@@ -25,7 +24,7 @@ Edition, referred to here as **Google Glass XE**.
   compliance with local laws and regulations where it is used.
 
 The free iPhone apps are distributed separately through the Apple App Store.
-The iPhone apps also support standalone operation without Google Glass XE.
+The iPhone apps also support standalone operation without companion hardware.
 
 ## Repository Contents
 
@@ -66,12 +65,10 @@ Get API keys or local runtimes:
 
 ## Install
 
-See [Google Glass XE Installation Guide](docs/glass/GLASS_INSTALL_GUIDE.md) for
-ADB installation, networking, and voice-command setup.
+See [Companion Installation Guide](docs/glass/GLASS_INSTALL_GUIDE.md) for ADB
+installation, networking, and voice-command setup.
 
-The Google Glass XE companions target Android 4.4.4 / API 19 and are sideloaded.
-Google Glass Explorer Edition is discontinued hardware and is not manufactured
-or supported by Google.
+The companion apps target Android 4.4.4 / API 19 and are sideloaded.
 
 ## Screenshots
 
@@ -79,7 +76,7 @@ or supported by Google.
 
 ![Food Scanner on iPhone](assets/images/foodscanner_result_iphone_1.png)
 
-![Food Scanner on Google Glass XE](assets/images/foodscanner_result_glass_1.png)
+![Food Scanner companion display](assets/images/foodscanner_result_glass_1.png)
 
 ### Glasshole
 
