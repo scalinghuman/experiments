@@ -16,9 +16,9 @@ This repository contains Android companion apps for wearable hardware.
 - **Food Scanner** captures a food image and sends it to the companion iPhone
   app for nutrition analysis, then displays the result on the companion
   display.
-- **Glasshole for Google Glass XE** is an AI-powered conversation fact-checker.
-  It starts and stops real-time conversation capture and displays summaries and
-  fact-check overlays returned by the companion iPhone app after analysis.
+- **Glasshole AI** is an AI-powered conversation fact-checker. It starts and
+  stops real-time conversation capture and displays summaries and fact-check
+  overlays returned by the companion iPhone app after analysis.
 
   Use Glasshole only with the consent of everyone being recorded and in
   compliance with local laws and regulations where it is used.
@@ -82,7 +82,7 @@ The companion apps target Android 4.4.4 / API 19 and are sideloaded.
 
 ![Glasshole on iPhone](assets/images/glasshole_factcheck_iphone_1.png)
 
-![Glasshole on Google Glass XE](assets/images/glasshole_factcheck_glass_1.png)
+![Glasshole companion display](assets/images/glasshole_factcheck_glass_1.png)
 
 ## Status
 
