@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: June 26, 2026
+Last updated: July 8, 2026
 
 Scaling Human builds Hardware + AI tools that extend human perception and
 capability. This policy covers the Food Scanner and Glasshole iOS apps.
@@ -46,12 +46,11 @@ transcripts are sent to that provider for summarization and fact-checking.
 
 AI fact-check results can be wrong and should not be treated as authoritative.
 
-## Google Glass Explorer Edition Companion Apps
+## Optional Companion Apps
 
-The Google Glass Explorer Edition (Google Glass XE) companion apps are
-distributed from GitHub. They connect to the iOS apps over your local Wi-Fi or
-iPhone Personal Hotspot. The Food Scanner companion uses the Google Glass XE
-camera to send food images to the iOS app. The Glasshole companion sends
+Optional companion apps are distributed from GitHub. They connect to the iOS
+apps over your local Wi-Fi or iPhone Personal Hotspot. The Food Scanner
+companion can send food images to the iOS app. The Glasshole companion sends
 activation and stop gestures and displays results from the iOS app.
 
 ## API Keys
