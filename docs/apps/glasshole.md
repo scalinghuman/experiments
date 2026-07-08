@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Glasshole AI for Google Glass
+title: Glasshole AI
 permalink: /apps/glasshole
 ---
 
-# Glasshole AI for Google Glass
+# Glasshole AI
 
-Glasshole AI for Google Glass is an iPhone app built primarily for Google Glass
-Explorer Edition (Google Glass XE). It also works standalone on iPhone.
+Glasshole AI is an iPhone app with optional wearable companion support. It also
+works standalone on iPhone.
 
 The app acts as an AI-powered live or real-time fact-checker and overlay for
-Google Glass XE. It can transcribe spoken conversation, summarize it, and
-surface concise factual analysis on iPhone and on the Google Glass XE prism.
+spoken conversation. It can transcribe spoken conversation, summarize it, and
+surface concise factual analysis on iPhone and on the companion display.
 
 ## Supported Modes and Models
 
@@ -35,11 +35,11 @@ text, and session history is stored locally on device. If the user selects an
 external AI provider, only the transcript needed for the request is sent to
 that provider.
 
-## Google Glass XE Companion
+## Optional Wearable Companion
 
-The optional Google Glass XE companion lets the user trigger sessions from
-Google Glass XE and view returned results on the prism. The companion connects
-to the iPhone app over local Wi-Fi or iPhone Personal Hotspot.
+The optional wearable companion lets the user trigger sessions from the wearable
+hardware and view returned results on the companion display. The companion
+connects to the iPhone app over local Wi-Fi or iPhone Personal Hotspot.
 
 ## Notes
 
