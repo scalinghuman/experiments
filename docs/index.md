@@ -10,10 +10,10 @@ memory, judgment, and capability.
 
 ## Apps
 
-### Food Scanner for Google Glass
+### Food Scanner
 
-Food Scanner is designed primarily as the iPhone compute companion for Google
-Glass Explorer Edition (Google Glass XE). It also works standalone on iPhone.
+Food Scanner works standalone on iPhone and also supports an optional wearable
+companion workflow.
 
 [App page](apps/foodscanner.md)
 
