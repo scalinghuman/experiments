@@ -17,9 +17,26 @@ The current MVP targets Fire TV Cube and Android TV streaming devices. It pauses
 - Parent PIN protected stop / exit / completion flows
 - Early finish reward mode with uninterrupted screen-time timer
 - Reward-complete thank-you screen for the child
-- Netflix resume helper using an accessibility-service fallback
 - Local FastAPI / WebSocket server scaffold for upcoming AI bite validation
 - Debug APK and source are kept in the private implementation repository
+
+## Streaming App Compatibility
+
+Kids Meal Mode currently uses standard Android media key events (`MEDIA_PAUSE` / `MEDIA_PLAY`) rather than app-specific automation. This keeps the implementation simpler and more store-friendly, but support depends on each streaming app honoring standard media playback controls.
+
+| App | Status | Notes |
+| --- | --- | --- |
+| YouTube | Tested supported | Pause and auto-resume work on Fire TV. |
+| Prime Video | Tested supported | Pause and auto-resume work on Fire TV. |
+| Disney+ | Expected compatible, needs real-device test | Public Fire TV / Android TV availability suggests a normal media-app path, but it has not been validated yet. |
+| Hulu | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
+| Max / HBO Max | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
+| Peacock | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
+| Tubi / Pluto TV / Freevee | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
+| Plex / Jellyfin | Expected compatible, needs real-device test | Media-player apps generally expose Android media controls, but they have not been validated yet. |
+| Netflix | Not supported in current Phase 1 | Netflix does not reliably auto-resume after the bite prompt on Fire TV. It can land on a title/resume screen and ignore the normal `MEDIA_PLAY` path. Accessibility-based workarounds were attempted and removed because Fire OS hides sideloaded accessibility services in Settings and the workaround remained unreliable. |
+
+If "Display+" refers to Disney+, it should be treated as expected compatible pending real-device testing. If it refers to a different streaming app, it should be added to the test matrix before claiming support.
 
 ## Private Implementation
 
