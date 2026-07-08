@@ -28,10 +28,9 @@ advice.
 
 ## Glasshole
 
-Glasshole can be used without Google Glass XE by tapping the microphone button
-in the iOS app. The Google Glass XE companion APK lets Google Glass Explorer
-Edition start and stop real-time conversation capture and display AI-powered
-fact-check overlays after analysis.
+Glasshole can be used without companion hardware by tapping the microphone
+button in the iOS app. The optional companion APK can start and stop real-time
+conversation capture and display AI-powered fact-check overlays after analysis.
 
 Use Glasshole only with the consent of everyone being recorded and in
 compliance with local laws and regulations where you use it.
