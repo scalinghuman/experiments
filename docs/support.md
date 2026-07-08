@@ -1,9 +1,8 @@
 # Support
 
-Last updated: June 26, 2026
+Last updated: July 8, 2026
 
-For help with Food Scanner, Glasshole, or the Google Glass Explorer Edition
-(Google Glass XE) companion apps, contact:
+For help with Food Scanner, Glasshole, or the companion apps, contact:
 
 - Email: srikantha.ballani@gmail.com
 - GitHub: <https://github.com/scalinghuman/experiments>
@@ -19,10 +18,10 @@ supported iPhones without an API key.
 
 ## Food Scanner
 
-Food Scanner can be used without Google Glass XE by choosing a food photo from
-iPhone or taking a new iPhone camera photo. The Google Glass XE companion APK
-lets Google Glass Explorer Edition capture a food image and send it to the iOS
-app over local Wi-Fi or iPhone Personal Hotspot.
+Food Scanner can be used without companion hardware by choosing a food photo
+from iPhone or taking a new iPhone camera photo. The optional companion APK
+can capture a food image and send it to the iOS app over local Wi-Fi or iPhone
+Personal Hotspot.
 
 Nutrition values are AI estimates for general information only, not medical
 advice.
@@ -40,9 +39,8 @@ compliance with local laws and regulations where you use it.
 ## Common Setup
 
 1. Install the iOS app from the App Store.
-2. Install the Google Glass XE companion APK from GitHub.
-3. Connect Google Glass Explorer Edition to your iPhone Personal Hotspot.
-4. Open the iOS app and confirm the Google Glass XE connection indicator.
+2. Install the companion APK from GitHub.
+3. Connect the companion hardware to your iPhone Personal Hotspot.
+4. Open the iOS app and confirm the connection indicator.
 
-Google Glass Explorer Edition is discontinued hardware. Companion setup may
-require ADB and manual voice-command registration.
+Companion setup may require ADB and manual voice-command registration.
