@@ -26,7 +26,14 @@ compliance with local laws.
 
 [App page](apps/glasshole.md)
 
+### RT Library
+
+RT Library is a resident-built catalog for the shared library room at Riviera Towers West New York, a private residential building.
+
+[App page](apps/rt-library.md)
+
 ## Contact
 
 - Email: srikantha.ballani@gmail.com
 - GitHub: <https://github.com/scalinghuman/experiments>
+
