@@ -8,7 +8,7 @@ permalink: /apps/rt-library/privacy
 
 Effective date: July 9, 2026
 
-RT Library is a resident-built catalog app for the shared library room at Riviera Towers West New York, a private residential building.
+RT Library is a co-op shareholder-built catalog app for the shared library room at Riviera Towers West New York, a private co-op building.
 
 ## Data Collection
 
