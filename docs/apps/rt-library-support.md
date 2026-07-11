@@ -6,7 +6,7 @@ permalink: /apps/rt-library/support
 
 # RT Library Support
 
-RT Library helps residents browse and search the shared library room at Riviera Towers West New York, a private residential building.
+RT Library helps co-op shareholders browse and search the shared library room at Riviera Towers West New York, a private co-op building.
 
 ## Current Features
 
@@ -16,7 +16,7 @@ RT Library helps residents browse and search the shared library room at Riviera 
 
 ## Coming Soon
 
-- Resident book requests.
+- Co-op shareholder book requests.
 - Book donation photo flow.
 - Shared availability updates.
 
