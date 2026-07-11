@@ -28,7 +28,7 @@ compliance with local laws.
 
 ### RT Library
 
-RT Library is a resident-built catalog for the shared library room at Riviera Towers West New York, a private residential building.
+RT Library is a co-op shareholder-built catalog for the shared library room at Riviera Towers West New York, a private co-op building.
 
 [App page](apps/rt-library.md)
 
