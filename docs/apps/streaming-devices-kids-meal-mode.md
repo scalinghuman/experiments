@@ -12,11 +12,12 @@ The current build targets Fire TV Cube and Android TV streaming devices. It paus
 
 **Package:** `com.kidsmealmode`  
 **Current private build:** `1.0.13` (versionCode 14)  
-**Primary distribution:** private ADB / sideload (not Appstore yet)
+**Primary distribution:** private ADB / sideload (not Appstore yet)  
+**Status:** Phase 1 complete
 
-## Status — Phase 1 in progress (family-usable on Fire TV)
+## Status — Phase 1 complete (family-usable on Fire TV)
 
-Phase 0 delivered a working Fire TV MVP. Phase 1 is product iteration on real devices: UX polish, parent-gated flows, and dependable pause/resume for supported streaming apps.
+Phase 0 delivered a working Fire TV MVP. Phase 1 finished product iteration on real devices: UX polish, parent-gated flows, max meal timer, and a tested streaming-app compatibility matrix.
 
 ### Working today
 
@@ -28,7 +29,7 @@ Phase 0 delivered a working Fire TV MVP. Phase 1 is product iteration on real de
 - Reward thank-you screen; PIN not re-prompted when already authorized on the piggy path
 - Configurable max meal duration with end-of-meal parent confirmation
 - Soft TV focus styling for D-pad navigation
-- Fire-gray square launcher icon tuned for sideload home-row tiles (rectangular store banners still require Amazon hosting)
+- Fire-gray square launcher icon tuned for sideload home-row tiles
 - Local FastAPI / WebSocket server scaffold for upcoming LAN vision validation
 - Debug APK and full source kept in private implementation repositories
 
@@ -38,19 +39,35 @@ Sideload remains the intended path for the full product (overlay indicator, cros
 
 ## Streaming App Compatibility
 
-Kids Meal Mode uses standard Android media key events (`MEDIA_PAUSE` / `MEDIA_PLAY`) rather than app-specific automation. Support depends on each streaming app honoring standard media playback controls.
+Kids Meal Mode uses standard Android media key events (`MEDIA_PAUSE` / `MEDIA_PLAY`) rather than app-specific automation. Support depends on each streaming app honoring standard media playback controls. Matrix from real Fire TV testing at Phase 1 close-out:
+
+### Confirmed working
 
 | App | Status | Notes |
 | --- | --- | --- |
-| YouTube | Tested supported | Pause and auto-resume work on Fire TV. |
-| Prime Video | Tested supported | Pause and auto-resume work on Fire TV. |
-| Disney+ | Expected compatible, needs real-device test | Public Fire TV / Android TV availability suggests a normal media-app path, but it has not been validated yet. |
-| Hulu | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
-| Max / HBO Max | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
-| Peacock | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
-| Tubi / Pluto TV / Freevee | Expected compatible, needs real-device test | Public Fire TV availability suggests likely standard media-key behavior, but it has not been validated yet. |
-| Plex / Jellyfin | Expected compatible, needs real-device test | Media-player apps generally expose Android media controls, but they have not been validated yet. |
-| Netflix | Not supported in the current build | Netflix does not reliably auto-resume after the bite prompt on Fire TV. Accessibility-based workarounds were attempted and removed because Fire OS hides sideloaded accessibility services in Settings and the workaround remained unreliable. |
+| YouTube | Supported | Pause and auto-resume work on Fire TV. |
+| Prime Video | Supported | Pause and auto-resume work on Fire TV. |
+| Max (HBO Max) | Supported | Pause and auto-resume work on Fire TV. |
+| Peacock | Supported | Pause and auto-resume work on Fire TV. |
+| Apple TV | Supported | Pause and auto-resume work on Fire TV (Apple TV app). |
+| The Roku Channel | Supported | Pause and auto-resume work on Fire TV. |
+
+### Confirmed not working
+
+| App | Status | Notes |
+| --- | --- | --- |
+| Netflix | Not supported | Does not reliably auto-resume after the bite prompt; often lands on a title/resume screen and ignores `MEDIA_PLAY`. Accessibility workarounds were tried and removed (unreliable on Fire OS). |
+| Paramount+ | Not supported | Pause/resume via standard media keys does not work reliably on Fire TV. |
+
+### Untested
+
+| App | Status | Notes |
+| --- | --- | --- |
+| Disney+ | Untested | Not validated yet. |
+| Hulu | Untested | Not validated yet. |
+| Tubi / Pluto TV / Freevee | Untested | Not validated yet. |
+| Plex / Jellyfin | Untested | Not validated yet. |
+| Other apps | Untested | Assume unsupported until tested. |
 
 ## Private Implementation
 
@@ -63,9 +80,9 @@ The public experiments page tracks product direction and status only. APK distri
 
 ## Roadmap
 
-### Phase 1 - Fire TV Product Iteration (active)
+### Phase 1 - Fire TV Product Iteration ✅ Complete
 
-Iterate on UX, features, and bugs found during real family use. Focus: dependable install for non-developers, clear parent-gated flows, honest supported-app documentation, and lightweight diagnostics.
+Family-usable Fire TV build with parent-gated flows, UX polish, max meal timer, and an honest streaming compatibility matrix (see above).
 
 ### Phase 2 - Local Vision Validation on LAN
 
@@ -73,7 +90,7 @@ Validate a local vision model on the home network. The Fire TV app remains the o
 
 ### Phase 3 - Private Distribution
 
-Versioned APK builds for friends and family with Android-based Fire TVs. Short install guide, changelogs, known issues, and clear Netflix unsupported expectations.
+Versioned APK builds for friends and family with Android-based Fire TVs. Short install guide, changelogs, known issues, and clear unsupported-app expectations (Netflix, Paramount+).
 
 ### Phase 4 - Fire TV Appstore (optional / hard)
 
