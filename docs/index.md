@@ -32,6 +32,14 @@ RT Library is a co-op shareholder-built catalog for the shared library room at R
 
 [App page](apps/rt-library.md)
 
+### Streaming Devices - Kids Meal Mode
+
+Kids Meal Mode is a Fire TV / Android TV experiment that uses timed bite prompts
+and parent PIN gates so children keep eating during screen time. Current
+distribution is private sideload.
+
+[App page](apps/streaming-devices-kids-meal-mode.md)
+
 ## Contact
 
 - Email: srikantha.ballani@gmail.com
