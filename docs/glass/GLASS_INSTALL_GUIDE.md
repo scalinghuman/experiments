@@ -1,84 +1,82 @@
-# Google Glass XE Installation Guide
+# Google Glass XE Companion Installation
 
-## Prerequisites
+The Food Scanner and Glasshole AI iPhone apps work without a wearable. Install
+a companion only when you use a Google Glass Explorer Edition (Glass XE).
 
-- ADB installed: `brew install android-platform-tools`
-- Google Glass Explorer Edition (Google Glass XE) with USB debugging enabled
-- Micro-USB cable
+## Downloads
 
-## Install All Apps on a New Google Glass XE Unit
+Download only the companion for the iPhone app you use:
 
-### Step 1: Connect and Authorize
+| iPhone app | Google Glass XE companion | Voice command |
+| --- | --- | --- |
+| Food Scanner | [foodscanner-glass-companion-v1.0.0.apk](https://github.com/scalinghuman/experiments/releases/download/glass-companions-v1.0.0/foodscanner-glass-companion-v1.0.0.apk) | `scan food` |
+| Glasshole AI | [glasshole-glass-companion-v1.0.0.apk](https://github.com/scalinghuman/experiments/releases/download/glass-companions-v1.0.0/glasshole-glass-companion-v1.0.0.apk) | `fact check` |
 
-```bash
-adb devices
-```
+## Before you begin
 
-If `unauthorized`, accept the USB debugging prompt on the Google Glass XE
-touchpad.
+- Google Glass Explorer Edition (Glass XE)
+- A micro-USB cable
+- A computer with Android Debug Bridge (ADB)
+- USB debugging enabled on Glass
 
-### Step 2: Install Both Companion Apps
-
-```bash
-# Glasshole companion
-adb install -r /Volumes/workplace/google-glass/glasshole-companion.apk
-
-# Food Scanner companion
-adb install -r /Volumes/workplace/google-glass/PlateCheck/scanmyfood-companion.apk
-```
-
-### Step 3: Connect to iPhone Hotspot
-
-1. Enable **Personal Hotspot** on iPhone
-2. On Google Glass XE: Settings → Wi-Fi → select iPhone hotspot
-3. Enter password via ADB if needed:
-```bash
-adb shell input text "YOUR_HOTSPOT_PASSWORD"
-adb shell input keyevent 66
-```
-
-### Step 4: Verify
-
-Say **"Ok Glass"** to Google Glass XE. You should see:
-- **"fact check"** -> launches Glasshole
-- **"scan food"** -> launches Food Scanner camera
-
-## Multiple Google Glass XE Units
-
-Target a specific device when multiple are connected:
+On macOS, install ADB with:
 
 ```bash
-adb devices  # List serial numbers
-
-adb -s SERIAL install -r glasshole-companion.apk
-adb -s SERIAL install -r PlateCheck/scanmyfood-companion.apk
+brew install android-platform-tools
 ```
 
-## Quick Install Scripts
+## Install
+
+1. Download the APK above to your computer.
+2. Connect Glass with the micro-USB cable and run:
+
+   ```bash
+   adb devices
+   ```
+
+3. If Glass reports `unauthorized`, accept the USB debugging prompt on the
+   Glass touchpad, then run `adb devices` again.
+4. Install the APK you downloaded:
+
+   ```bash
+   adb install -r foodscanner-glass-companion-v1.0.0.apk
+   # or
+   adb install -r glasshole-glass-companion-v1.0.0.apk
+   ```
+
+5. Connect Glass to your iPhone Personal Hotspot, open the matching iPhone app,
+   and confirm its connection indicator.
+
+## Updating
+
+Download the newer APK from the [latest release](https://github.com/scalinghuman/experiments/releases/latest)
+and repeat the same `adb install -r` command. Public companion releases use a
+stable signing key, so later public releases install as updates.
+
+If `adb` reports `INSTALL_FAILED_UPDATE_INCOMPATIBLE`, remove only the affected
+older app and install again:
 
 ```bash
-# Food Scanner only
-./PlateCheck/install-glass.sh
-
-# Both apps (manual)
-adb install -r glasshole-companion.apk
-./PlateCheck/install-glass.sh
+adb uninstall com.scanmyfood.companion
+# or
+adb uninstall com.glasshole.companion
 ```
 
-## App Details
+## Verify
 
-| App | Google Glass XE Name | Voice Command | TCP Port | APK |
-|-----|-----------|---------------|----------|-----|
-| Glasshole | Glasshole | "fact check" | 9000 | `glasshole-companion.apk` |
-| Food Scanner | Scan My Food | "scan food" | 9001 | `PlateCheck/scanmyfood-companion.apk` |
+Say **“Ok Glass”** and then:
 
-## Troubleshooting
+- **“scan food”** for Food Scanner
+- **“fact check”** for Glasshole AI
 
-| Issue | Fix |
-|-------|-----|
-| `unauthorized` in `adb devices` | Accept USB debugging prompt on Google Glass XE |
-| `INSTALL_FAILED_DEXOPT` | Uninstall first: `adb uninstall com.glasshole.companion` or `com.scanmyfood.companion` |
-| Google Glass XE not connecting to iPhone | Check hotspot: `adb shell ifconfig wlan0` should show `172.20.10.x` |
-| Voice command missing | Reboot Google Glass XE: `adb reboot`; custom commands use the APK manifest plus Google Glass development permission |
-| Camera captures immediately on launch | Voice trigger sends tap event — 1s delay guard handles this |
-| Wi-Fi lost after reboot | Reconnect to hotspot manually (Wi-Fi may not persist) |
+## Checksums
+
+Verify a downloaded file before installing when possible:
+
+```text
+foodscanner-glass-companion-v1.0.0.apk
+SHA-256: 7c32fd0f86d49ecebaba4628f03f7ebfd549754d99f11b874ab250f2a46e5093
+
+glasshole-glass-companion-v1.0.0.apk
+SHA-256: ac5ba8ffdccd79152df7eae5b12f10f3476709166c6699d93fc8b1175719ced1
+```
