@@ -41,27 +41,9 @@ Sideload remains the intended path for the full product (overlay indicator, cros
 
 ## Install on Fire TV (sideload)
 
-Requires an Android-based Fire TV / Fire OS device. Not on the Amazon Appstore yet.
+Kids Meal Mode is distributed privately as a sideload APK for Android-based Fire TV / Fire OS devices. It is not available on the Amazon Appstore.
 
-### Ready-made APK (private repo access required)
-
-1. Download the debug APK from the private implementation repo:  
-   [dist/KidsMealMode-firetv-debug.apk](https://github.com/scalinghuman/streaming-devices-kids-meal-mode/blob/main/dist/KidsMealMode-firetv-debug.apk)
-2. On Fire TV: **Settings → My Fire TV → Developer options** — enable **ADB debugging**.
-3. Note the TV’s IP under **About → Network**.
-4. From a computer with `adb` (Android platform-tools):
-
-```bash
-adb connect <fire-tv-ip>:5555
-adb install -r KidsMealMode-firetv-debug.apk
-```
-
-5. Open **Kids Meal Mode** on the Fire TV and grant **Display over other apps**.
-
-Full build-from-source steps:  
-[streaming-devices-kids-meal-mode README](https://github.com/scalinghuman/streaming-devices-kids-meal-mode#install-on-fire-tv-sideload)
-
-Default parent PIN: `1234` (change in Settings).
+Trusted testers receive the APK and short ADB install steps separately. After install, open **Kids Meal Mode** and grant **Display over other apps**. Default parent PIN is `1234` (change in Settings).
 
 ## Streaming App Compatibility
 
@@ -95,17 +77,11 @@ Kids Meal Mode uses standard Android media key events (`MEDIA_PAUSE` / `MEDIA_PL
 | Plex / Jellyfin | Untested | Not validated yet. |
 | Other apps | Untested | Assume unsupported until tested. |
 
-## Links & private implementation
+## Distribution
 
-| What | URL |
-| --- | --- |
-| Public product page | [scalinghuman.ai/apps/streaming-devices-kids-meal-mode](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode) |
-| Private source + APK | [github.com/scalinghuman/streaming-devices-kids-meal-mode](https://github.com/scalinghuman/streaming-devices-kids-meal-mode) |
-| Sideload APK (private) | [dist/KidsMealMode-firetv-debug.apk](https://github.com/scalinghuman/streaming-devices-kids-meal-mode/blob/main/dist/KidsMealMode-firetv-debug.apk) |
-| Monorepo mirror | [experiments-development](https://github.com/scalinghuman/experiments-development) → `apps/streaming-devices-kids-meal-mode` |
-| Public experiments docs | [docs/apps/streaming-devices-kids-meal-mode.md](https://github.com/scalinghuman/experiments/blob/main/docs/apps/streaming-devices-kids-meal-mode.md) |
+Source code and APK builds are maintained privately for family testing. This public page tracks product direction, status, and streaming-app compatibility only.
 
-The public pages track product direction and status. Full source history and APKs remain private until broader release.
+For a tester build, contact [srikantha.ballani@gmail.com](mailto:srikantha.ballani@gmail.com).
 
 ## Roadmap
 
