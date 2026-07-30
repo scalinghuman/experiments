@@ -35,11 +35,27 @@ text, and session history is stored locally on device. If the user selects an
 external AI provider, only the transcript needed for the request is sent to
 that provider.
 
-## Optional Wearable Companion
+## Optional Wearable Companion (Google Glass XE)
 
-The optional wearable companion lets the user trigger sessions from the wearable
-hardware and view returned results on the companion display. The companion
-connects to the iPhone app over local Wi-Fi or iPhone Personal Hotspot.
+The optional Google Glass XE companion lets you start sessions from Glass and
+view returned results on the prism. The companion connects to the iPhone app
+over local Wi-Fi or iPhone Personal Hotspot.
+
+**Requires:** Google Glass XE, ADB on a computer, and an iPhone Personal
+Hotspot. Connect Glass to the iPhone hotspot before opening Glasshole AI.
+
+### Install path (website → GitHub)
+
+1. Download the companion APK:
+   [glasshole-glass-companion-v1.0.0.apk](https://github.com/scalinghuman/experiments/releases/download/glass-companions-v1.0.0/glasshole-glass-companion-v1.0.0.apk)
+2. Follow the step-by-step
+   [Google Glass XE installation guide](https://github.com/scalinghuman/experiments/blob/main/docs/glass/GLASS_INSTALL_GUIDE.md)
+   (ADB install, hotspot, connection check).
+3. On Glass, open the **fact check** command and **tap** the touchpad to
+   launch — do **not** rely on saying “Ok Glass.”
+4. After launch, **tap** the touchpad again to start/stop listening.
+
+Product site: [scalinghuman.ai/apps/glasshole](https://scalinghuman.ai/apps/glasshole)
 
 ## Notes
 

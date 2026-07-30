@@ -65,8 +65,16 @@ Get API keys or local runtimes:
 
 ## Install
 
-See [Companion Installation Guide](docs/glass/GLASS_INSTALL_GUIDE.md) for ADB
-installation, networking, and voice-command setup.
+See the [Google Glass XE Installation Guide](docs/glass/GLASS_INSTALL_GUIDE.md)
+for ADB installation, networking, and how to launch companions with a
+**touchpad tap** on the **fact check** or **scan food** Glass commands.
+
+Do **not** rely on saying “Ok Glass” — use the touchpad.
+
+Product pages (download APK + link to this guide):
+
+- [Food Scanner](https://scalinghuman.ai/apps/foodscanner)
+- [Glasshole AI](https://scalinghuman.ai/apps/glasshole)
 
 The companion apps target Android 4.4.4 / API 19 and are sideloaded.
 
