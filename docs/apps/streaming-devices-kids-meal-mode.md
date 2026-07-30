@@ -35,53 +35,10 @@ Phase 0 delivered a working Fire TV MVP. Phase 1 finished product iteration on r
 - Local FastAPI / WebSocket server scaffold for upcoming LAN vision validation
 - Debug APK and full source kept in private implementation repositories
 
-### Distribution and store outlook
+### Source & distribution
 
-Sideload remains the intended path for the full product (overlay indicator, cross-app media pause/resume, long-running meal service). Amazon Appstore approval is **uncertain** for this architecture: draw-over-other-apps and controlling other apps’ media are high-friction for review. A store “lite” build would need a different product shape. That is fine — the experiment is useful as a private family tool first.
-
-## Install on Fire TV (sideload)
-
-Kids Meal Mode is distributed privately as a sideload APK for Android-based Fire TV / Fire OS devices. It is not available on the Amazon Appstore.
-
-Trusted testers receive the APK and short ADB install steps separately. After install, open **Kids Meal Mode** and grant **Display over other apps**. Default parent PIN is `1234` (change in Settings).
-
-## Streaming App Compatibility
-
-Kids Meal Mode uses standard Android media key events (`MEDIA_PAUSE` / `MEDIA_PLAY`) rather than app-specific automation. Support depends on each streaming app honoring standard media playback controls. Matrix from real Fire TV testing at Phase 1 close-out:
-
-### Confirmed working
-
-| App | Status | Notes |
-| --- | --- | --- |
-| YouTube | Supported | Pause and auto-resume work on Fire TV. |
-| Prime Video | Supported | Pause and auto-resume work on Fire TV. |
-| Max (HBO Max) | Supported | Pause and auto-resume work on Fire TV. |
-| Peacock | Supported | Pause and auto-resume work on Fire TV. |
-| Apple TV | Supported | Pause and auto-resume work on Fire TV (Apple TV app). |
-| The Roku Channel | Supported | Pause and auto-resume work on Fire TV. |
-
-### Confirmed not working
-
-| App | Status | Notes |
-| --- | --- | --- |
-| Netflix | Not supported | Does not reliably auto-resume after the bite prompt; often lands on a title/resume screen and ignores `MEDIA_PLAY`. Accessibility workarounds were tried and removed (unreliable on Fire OS). |
-| Paramount+ | Not supported | Pause/resume via standard media keys does not work reliably on Fire TV. |
-
-### Untested
-
-| App | Status | Notes |
-| --- | --- | --- |
-| Disney+ | Untested | Not validated yet. |
-| Hulu | Untested | Not validated yet. |
-| Tubi / Pluto TV / Freevee | Untested | Not validated yet. |
-| Plex / Jellyfin | Untested | Not validated yet. |
-| Other apps | Untested | Assume unsupported until tested. |
-
-## Distribution
-
-Source code and APK builds are maintained privately for family testing. This public page tracks product direction, status, and streaming-app compatibility only.
-
-For a tester build, contact [srikantha.ballani@gmail.com](mailto:srikantha.ballani@gmail.com).
+- **APK:** public (links above) for personal / family Fire TV sideload.
+- **Source code:** private. This page tracks product status and compatibility only.
 
 ## Roadmap
 
