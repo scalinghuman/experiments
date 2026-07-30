@@ -13,7 +13,9 @@ The current build targets Fire TV Cube and Android TV streaming devices. It paus
 **Package:** `com.kidsmealmode`  
 **Current private build:** `1.0.13` (versionCode 14)  
 **Primary distribution:** private ADB / sideload (not Appstore yet)  
-**Status:** Phase 1 complete
+**Status:** Phase 1 complete  
+
+**Public page:** [https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode)
 
 ## Status — Phase 1 complete (family-usable on Fire TV)
 
@@ -36,6 +38,30 @@ Phase 0 delivered a working Fire TV MVP. Phase 1 finished product iteration on r
 ### Distribution and store outlook
 
 Sideload remains the intended path for the full product (overlay indicator, cross-app media pause/resume, long-running meal service). Amazon Appstore approval is **uncertain** for this architecture: draw-over-other-apps and controlling other apps’ media are high-friction for review. A store “lite” build would need a different product shape. That is fine — the experiment is useful as a private family tool first.
+
+## Install on Fire TV (sideload)
+
+Requires an Android-based Fire TV / Fire OS device. Not on the Amazon Appstore yet.
+
+### Ready-made APK (private repo access required)
+
+1. Download the debug APK from the private implementation repo:  
+   [dist/KidsMealMode-firetv-debug.apk](https://github.com/scalinghuman/streaming-devices-kids-meal-mode/blob/main/dist/KidsMealMode-firetv-debug.apk)
+2. On Fire TV: **Settings → My Fire TV → Developer options** — enable **ADB debugging**.
+3. Note the TV’s IP under **About → Network**.
+4. From a computer with `adb` (Android platform-tools):
+
+```bash
+adb connect <fire-tv-ip>:5555
+adb install -r KidsMealMode-firetv-debug.apk
+```
+
+5. Open **Kids Meal Mode** on the Fire TV and grant **Display over other apps**.
+
+Full build-from-source steps:  
+[streaming-devices-kids-meal-mode README](https://github.com/scalinghuman/streaming-devices-kids-meal-mode#install-on-fire-tv-sideload)
+
+Default parent PIN: `1234` (change in Settings).
 
 ## Streaming App Compatibility
 
@@ -69,14 +95,17 @@ Kids Meal Mode uses standard Android media key events (`MEDIA_PAUSE` / `MEDIA_PL
 | Plex / Jellyfin | Untested | Not validated yet. |
 | Other apps | Untested | Assume unsupported until tested. |
 
-## Private Implementation
+## Links & private implementation
 
-Source code, current APK builds, implementation notes, and Phase 2 server code are maintained privately:
+| What | URL |
+| --- | --- |
+| Public product page | [scalinghuman.ai/apps/streaming-devices-kids-meal-mode](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode) |
+| Private source + APK | [github.com/scalinghuman/streaming-devices-kids-meal-mode](https://github.com/scalinghuman/streaming-devices-kids-meal-mode) |
+| Sideload APK (private) | [dist/KidsMealMode-firetv-debug.apk](https://github.com/scalinghuman/streaming-devices-kids-meal-mode/blob/main/dist/KidsMealMode-firetv-debug.apk) |
+| Monorepo mirror | [experiments-development](https://github.com/scalinghuman/experiments-development) → `apps/streaming-devices-kids-meal-mode` |
+| Public experiments docs | [docs/apps/streaming-devices-kids-meal-mode.md](https://github.com/scalinghuman/experiments/blob/main/docs/apps/streaming-devices-kids-meal-mode.md) |
 
-- [Private repo: scalinghuman/streaming-devices-kids-meal-mode](https://github.com/scalinghuman/streaming-devices-kids-meal-mode)
-- Also mirrored under [experiments-development](https://github.com/scalinghuman/experiments-development) at `apps/streaming-devices-kids-meal-mode`
-
-The public experiments page tracks product direction and status only. APK distribution, source history, and implementation details remain private until the app is ready for broader release.
+The public pages track product direction and status. Full source history and APKs remain private until broader release.
 
 ## Roadmap
 
@@ -94,11 +123,11 @@ Versioned APK builds for friends and family with Android-based Fire TVs. Short i
 
 ### Phase 4 - Fire TV Appstore (optional / hard)
 
-Only if a review-safe product shape emerges (likely without overlay + cross-app media control, or with strong justification). Release signing, listing assets, privacy policy, and permission disclosures required.
+Only if a review-safe product shape emerges (likely without overlay + cross-app media control, or with strong justification).
 
 ### Phase 5 - Google Play for Android
 
-Android TV / Google TV first, then tablets and phones if the product shape fits. Overlay policy risk remains.
+Android TV / Google TV first, then tablets and phones if the product shape fits.
 
 ### Phase 6 - Apple Platform Exploration
 
