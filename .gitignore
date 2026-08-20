@@ -34,6 +34,7 @@ local.properties
 
 # Generated submission/archive artifacts
 *.zip
+!docs/assets/qwen38-27b-eval/super-mario-web-source.zip
 *.pdf
 **/main
 docs/articles/substack_article.html
