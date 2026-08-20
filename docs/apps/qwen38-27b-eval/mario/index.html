@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Super Mario — Web Edition</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🍄</text></svg>" />
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="game" width="960" height="576"></canvas>
+    <div id="touch">
+      <div class="tgroup" id="tleft-right">
+        <button id="btn-left"  class="tbtn" aria-label="Move left">&#9664;</button>
+        <button id="btn-right" class="tbtn" aria-label="Move right">&#9654;</button>
+      </div>
+      <div class="tgroup" id="tjump-run">
+        <button id="btn-run"  class="tbtn small" aria-label="Run">RUN</button>
+        <button id="btn-jump" class="tbtn" aria-label="Jump">JUMP</button>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

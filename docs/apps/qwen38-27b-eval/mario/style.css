@@ -1,0 +1,84 @@
+:root {
+  --bg: #10131c;
+  --panel: #1a2030;
+  --accent: #e52521;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrap {
+  position: relative;
+  width: min(100vw, calc(100vh * 1.6667));
+  aspect-ratio: 960 / 576;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  display: block;
+  image-rendering: pixelated;
+  background: #5c94fc;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+}
+
+/* ---------- Touch controls ---------- */
+#touch {
+  position: absolute;
+  inset: 0;
+  display: none;
+  pointer-events: none;
+}
+
+body.touch #touch { display: block; }
+
+.tgroup {
+  position: absolute;
+  bottom: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+#tleft-right { left: 14px; }
+#tjump-run   { right: 14px; }
+
+.tbtn {
+  pointer-events: auto;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  background: rgba(15, 20, 35, 0.45);
+  color: rgba(255, 255, 255, 0.9);
+  font: bold 20px ui-monospace, monospace;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  backdrop-filter: blur(2px);
+}
+
+.tbtn:active { background: rgba(255, 255, 255, 0.25); }
+
+.tbtn.small {
+  width: 52px;
+  height: 52px;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .tbtn { width: 58px; height: 58px; font-size: 16px; }
+}
