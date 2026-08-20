@@ -1,16 +1,17 @@
 ---
 layout: default
-title: Qwen3.8 27B Eval — Local Mario Web Edition
+title: Build Super Mario Web Edition for $0
 permalink: /apps/qwen38-27b-eval
 ---
 
-# Build a Super Mario-Style Web Game for $0
+# Build Super Mario Web Edition for $0
 
 ## Test-riding local model prowess
 
-This is an informal local-model capability test: give a local Qwen3.8 27B model
-one open-ended prompt in LM Studio, turn Wi-Fi off, and see whether it can ship
-a complete browser game without follow-up instructions.
+This is an informal local-model capability test: give a local
+[Qwen3.8 27B](https://huggingface.co/Qwen/Qwen3.8-27B) model one open-ended
+prompt in [LM Studio](https://lmstudio.ai/), turn Wi-Fi off, and see whether it
+can ship a complete browser game without follow-up instructions.
 
 > Create Super Mario game which can be played in a web-browser. Make suitable assumptions.
 
@@ -24,8 +25,9 @@ when the task is concrete and the model has room to make sensible assumptions.
 
 ## Watch the run
 
-The screen recording shows the one-shot prompt in LM Studio and the locally
-served game being played in a browser.
+The screen recording shows the one-shot prompt in
+[LM Studio](https://lmstudio.ai/) and the locally served game being played in a
+browser.
 
 <video controls playsinline preload="metadata" poster="/experiments/assets/qwen38-27b-eval/qwen-local-mario-demo-poster.png" width="960">
   <source src="/experiments/assets/qwen38-27b-eval/qwen-local-mario-demo.mp4" type="video/mp4">
@@ -63,8 +65,21 @@ that useful, testable software can increasingly be prototyped on personal
 hardware—where the marginal cost looks much closer to electricity than a
 per-request cloud bill.
 
+## Tools used
+
+- [LM Studio](https://lmstudio.ai/) for local, offline inference
+- [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) open-weights model
+
+## GPU poor, still useful
+
+Hugging Face's GPU Poor framing fits this run: personal compute is enough to
+ship a complete prototype when the model is small enough to run locally.
+
+![Hugging Face GPU Poor meme used as context for this local evaluation](/experiments/assets/qwen38-27b-eval/huggingface-gpu-poor.png)
+
 ## Artifact
 
+- [Download the generated source (`super-mario-web-source.zip`)](/experiments/assets/qwen38-27b-eval/super-mario-web-source.zip)
 - [Browse the generated game files](https://github.com/scalinghuman/experiments/tree/main/docs/apps/qwen38-27b-eval/mario)
 - [Read the game README](https://github.com/scalinghuman/experiments/blob/main/docs/apps/qwen38-27b-eval/mario/README.md)
 - [Run the test harness](https://github.com/scalinghuman/experiments/blob/main/docs/apps/qwen38-27b-eval/mario/test/harness.js)

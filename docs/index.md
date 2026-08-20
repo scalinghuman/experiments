@@ -40,7 +40,7 @@ distribution is private sideload.
 
 [App page](apps/streaming-devices-kids-meal-mode.md)
 
-### Qwen3.8 27B Eval — Local Mario Web Edition
+### Build Super Mario Web Edition for $0
 
 An offline, one-shot local-model experiment: build and play a self-contained
 Super Mario-style browser game with no cloud inference or external assets.
