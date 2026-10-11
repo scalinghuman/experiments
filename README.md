@@ -1,13 +1,43 @@
 # Scaling Human Experiments
 
-Personal Hardware + AI experiments exploring how machines can extend human
-perception, memory, judgment, and capability.
+A collection of personal experiments with hardware, AI, apps, games, and local
+computing—built to learn, explore, and make useful things for everyday life.
+
+**Personal experimentation, not a commercial offering.** This repository is
+maintained for learning and personal use, not as a paid product or subscription
+service. Individual experiments may have free App Store apps, personal sideload
+builds, source artifacts, or documentation only.
 
 > Human + Machines >> Human | Machines
 
 Created and maintained by
 [Srikantha Ballani (@c0smicdirt)](https://github.com/c0smicdirt) as part of
 [Scaling Human](https://github.com/scalinghuman).
+
+## Explore the projects
+
+| Project | Experiment | What is available here | Project page |
+|---|---|---|---|
+| [Food Scanner](docs/projects/foodscanner.md) | AI-assisted nutrition from a food photo | Google Glass companion source and installation guide; iPhone source is separate | [Website](https://scalinghuman.ai/apps/foodscanner) |
+| [Glasshole AI](docs/projects/glasshole.md) | Conversation summaries and fact-check overlays | Google Glass companion source and installation guide; iPhone source is separate | [Website](https://scalinghuman.ai/apps/glasshole) |
+| [Kids Meal Mode](docs/projects/kids-meal-mode.md) | Timed meal prompts on Fire TV / Android TV | Project documentation and personal/family sideload download; source is private | [Website](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode) |
+| [Book Cricket](docs/projects/book-cricket.md) | A nostalgic page-flip cricket game | Links to the separately maintained project; source is not included here | [Website](https://scalinghuman.ai/apps/book-cricket) |
+| [Local AI game experiment](docs/projects/local-ai-game.md) | An offline model builds a browser platformer | Generated game source, README, and test harness | [Website](https://scalinghuman.ai/apps/qwen38-27b-eval) |
+| [Ring Local](docs/projects/ring-local.md) | Direct Oura Ring 4 Bluetooth connection to iPhone | Project scope and links; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/ring-local.html) |
+| [Strap Local](docs/projects/strap-local.md) | Direct WHOOP 5.0 Bluetooth connection to iPhone | Project scope and links; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/strap-local.html) |
+
+## How the collection is organized
+
+Each experiment has a [project brief](docs/projects/README.md) that links to its
+existing code, documentation, downloads, and public page. Not every project has
+public source in this repository. GitHub Projects boards can track each app's
+issues and milestones while the code and release assets remain in their
+existing locations.
+
+This is a collection rather than one installable application. Start with an
+individual project's page for its scope, status, installation options, and
+limitations. The existing [source-available license](LICENSE) governs the
+published repository; it is not an unrestricted open-source license.
 
 ## Companion Experiments
 
