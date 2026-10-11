@@ -1,4 +1,6 @@
-# Strap Local
+<a id="strap-local"></a>
+
+# Smart Strap Local
 
 Personal, noncommercial companion experiment for an owned WHOOP 5.0, using direct Bluetooth to a nearby iPhone and local data storage. No exported-data collection or required cloud relay.
 
@@ -21,4 +23,4 @@ Track work in this app’s GitHub Project when configured, using app-specific la
 
 ## Independence
 
-Independent and unofficial; not affiliated with or endorsed by Oura Health Oy or WHOOP, Inc. Personal/noncommercial use only. Device compatibility and measurements remain experimental. Honor rights-holder takedown requests for identified public materials, preserve upstream licenses, and do not publish health data, authentication keys or proprietary assets. See the public project page for the responsibility and takedown notices.
+Independent and unofficial; not affiliated with or endorsed by WHOOP, Inc. Personal/noncommercial use only. Device compatibility and measurements remain experimental. Honor rights-holder takedown requests for identified public materials, preserve upstream licenses, and do not publish health data, authentication keys or proprietary assets. See the public project page for the responsibility and takedown notices.

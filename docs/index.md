@@ -58,13 +58,15 @@ A nostalgic page-flip cricket game, in development.
 
 [Project brief](projects/book-cricket.md) · [Website](https://scalinghuman.ai/apps/book-cricket)
 
-### Ring Local and Strap Local
+<a id="ring-local-and-strap-local"></a>
+
+### Smart Ring Local and Smart Strap Local
 
 Independent personal-use projects for direct Oura Ring 4 and WHOOP 5.0 Bluetooth
 connections to iPhone. Project setup only; native apps and device validation are
 pending.
 
-[Ring Local](projects/ring-local.md) · [Strap Local](projects/strap-local.md)
+[Smart Ring Local](projects/ring-local.md) · [Smart Strap Local](projects/strap-local.md)
 
 ## Contact
 

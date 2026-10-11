@@ -11,8 +11,8 @@ pages; these briefs link each experiment to its existing artifacts and status.
 | [Kids Meal Mode](kids-meal-mode.md) | Free personal/family sideload APK; private source | [Website](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode) |
 | [Local AI game experiment](local-ai-game.md) | Browser game and generated source | [Website](https://scalinghuman.ai/apps/qwen38-27b-eval) |
 | [Book Cricket](book-cricket.md) | In development | [Website](https://scalinghuman.ai/apps/book-cricket) |
-| [Ring Local](ring-local.md) | Project setup; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/ring-local.html) |
-| [Strap Local](strap-local.md) | Project setup; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/strap-local.html) |
+| [Smart Ring Local](ring-local.md) | Project setup; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/ring-local.html) |
+| [Smart Strap Local](strap-local.md) | Project setup; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/strap-local.html) |
 
 ## Tracking convention
 

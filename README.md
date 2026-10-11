@@ -28,8 +28,8 @@ Created and maintained by
 | [Kids Meal Mode](docs/projects/kids-meal-mode.md) | Timed meal prompts on Fire TV / Android TV | Project documentation and personal/family sideload download; source is private | [Website](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode) |
 | [Book Cricket](docs/projects/book-cricket.md) | A nostalgic page-flip cricket game | Links to the separately maintained project; source is not included here | [Website](https://scalinghuman.ai/apps/book-cricket) |
 | [Local AI game experiment](docs/projects/local-ai-game.md) | An offline model builds a browser platformer | Generated game source, README, and test harness | [Website](https://scalinghuman.ai/apps/qwen38-27b-eval) |
-| [Ring Local](docs/projects/ring-local.md) | Direct Oura Ring 4 Bluetooth connection to iPhone | Project scope and links; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/ring-local.html) |
-| [Strap Local](docs/projects/strap-local.md) | Direct WHOOP 5.0 Bluetooth connection to iPhone | Project scope and links; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/strap-local.html) |
+| [Smart Ring Local](docs/projects/ring-local.md) | Direct Oura Ring 4 Bluetooth connection to iPhone | Project scope and links; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/ring-local.html) |
+| [Smart Strap Local](docs/projects/strap-local.md) | Direct WHOOP 5.0 Bluetooth connection to iPhone | Project scope and links; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/strap-local.html) |
 
 ## How the collection is organized
 
