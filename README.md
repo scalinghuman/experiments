@@ -39,9 +39,19 @@ individual project's page for its scope, status, installation options, and
 limitations. The existing [source-available license](LICENSE) governs the
 published repository; it is not an unrestricted open-source license.
 
+## Google Glass companion details
+
+Food Scanner and Glasshole include optional wearable companions. Their source,
+setup instructions, supported providers, and screenshots are below.
+
+<details>
+<summary>Food Scanner &amp; Glasshole — companion setup and screenshots</summary>
+
 ## Companion Experiments
 
-This repository contains Android companion apps for wearable hardware.
+The Food Scanner and Glasshole projects include optional Android companions for
+Google Glass Explorer Edition. This section documents those two companions;
+other experiments have their own project briefs and installation paths.
 
 - **Food Scanner** captures a food image and sends it to the companion iPhone
   app for nutrition analysis, then displays the result on the companion
@@ -121,6 +131,8 @@ The companion apps target Android 4.4.4 / API 19 and are sideloaded.
 ![Glasshole on iPhone](assets/images/glasshole_factcheck_iphone_1.png)
 
 ![Glasshole companion display](assets/images/glasshole_factcheck_glass_1.png)
+
+</details>
 
 ## Status
 
