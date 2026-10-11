@@ -13,7 +13,7 @@ If you found these apps on [scalinghuman.ai](https://scalinghuman.ai):
    (or from the [Downloads](#downloads) table below).
 3. Follow the install steps on **this guide**.
 4. On Glass, launch the app with a **touchpad tap** on the
-   **fact check** or **scan food** command — do **not** rely on saying
+   **fact check** or **scan food** command. Do **not** rely on saying
    “Ok Glass.”
 
 ## Downloads
@@ -76,7 +76,7 @@ adb shell input text "YOUR_HOTSPOT_PASSWORD"
 adb shell input keyevent 66
 ```
 
-## How to launch on Glass (tap — not “Ok Glass”)
+## How to launch on Glass (tap: not “Ok Glass”)
 
 **Do not depend on saying “Ok Glass.”** Voice wake is unreliable on many Glass
 units in the field. Use the touchpad instead.

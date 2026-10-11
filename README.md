@@ -1,7 +1,7 @@
 # Scaling Human Experiments
 
 A collection of personal experiments with hardware, AI, apps, games, and local
-computing—built to learn, explore, and make useful things for everyday life.
+computing, built to learn, explore, and make useful things for everyday life.
 
 **Personal experimentation, not a commercial offering.** This repository is
 maintained for learning and personal use, not as a paid product or subscription
@@ -60,7 +60,7 @@ Food Scanner and Glasshole include optional wearable companions. Their source,
 setup instructions, supported providers, and screenshots are below.
 
 <details>
-<summary>Food Scanner &amp; Glasshole — companion setup and screenshots</summary>
+<summary>Food Scanner &amp; Glasshole: companion setup and screenshots</summary>
 
 ## Companion Experiments
 
@@ -124,7 +124,7 @@ See the [Google Glass XE Installation Guide](docs/glass/GLASS_INSTALL_GUIDE.md)
 for ADB installation, networking, and how to launch companions with a
 **touchpad tap** on the **fact check** or **scan food** Glass commands.
 
-Do **not** rely on saying “Ok Glass” — use the touchpad.
+Do **not** rely on saying “Ok Glass.” Use the touchpad.
 
 Product pages (download APK + link to this guide):
 
@@ -157,3 +157,10 @@ not be treated as medical advice or authoritative fact.
 Source is available under the
 [Scaling Human Source-Available License](LICENSE). Redistribution, commercial
 use, hosted derivatives, and app-store publication require written permission.
+
+## Updating project webpages
+
+The [shared website workflow](https://github.com/scalinghuman/website/blob/main/docs/website-workflow.md)
+routes webpage changes to the website repository from any project folder and
+verifies the published revision. Project files changed here do not automatically
+update scalinghuman.ai.

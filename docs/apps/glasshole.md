@@ -52,7 +52,7 @@ Hotspot. Connect Glass to the iPhone hotspot before opening Glasshole AI.
    [Google Glass XE installation guide](https://github.com/scalinghuman/experiments/blob/main/docs/glass/GLASS_INSTALL_GUIDE.md)
    (ADB install, hotspot, connection check).
 3. On Glass, open the **fact check** command and **tap** the touchpad to
-   launch — do **not** rely on saying “Ok Glass.”
+   launch. Do **not** rely on saying “Ok Glass.”
 4. After launch, **tap** the touchpad again to start/stop listening.
 
 Product site: [scalinghuman.ai/apps/glasshole](https://scalinghuman.ai/apps/glasshole)

@@ -1,7 +1,7 @@
-# Super Mario — Web Edition
+# Super Mario: Web Edition
 
 A complete, self-contained Super Mario-style platformer that runs in any modern
-web browser. **No dependencies, no build step, no external assets** — all art is
+web browser. **No dependencies, no build step, no external assets**: all art is
 drawn procedurally on a `<canvas>` and all sounds are synthesized live with the
 WebAudio API.
 
@@ -53,7 +53,7 @@ Touch controls (left/right, RUN, JUMP) appear automatically on touch devices.
 - **Physics constants** (tuned for playability): gravity `0.45 px/f²`, jump
   velocity `15 px/f` (≈250 px max jump), walk `3.4 px/f`, run `5.4 px/f`.
   Pipes are capped at 4 tiles high (5 is unjumpable), and 4-tile pits require
-  a full jump — 5-tile pits (level 1-2) are the hard part on purpose.
+  a full jump: 5-tile pits (level 1-2) are the hard part on purpose.
 - **Levels** are generated programmatically from helper functions (ground runs,
   pipes, brick rows, `?`-blocks, coin rows, enemy spawns) rather than hand-drawn
   ASCII, so they are compact and easy to tweak in `game.js`.
@@ -70,7 +70,7 @@ Touch controls (left/right, RUN, JUMP) appear automatically on touch devices.
 ## Tests
 
 `test/harness.js` loads the real `game.js` in a Node `vm` sandbox with stubbed
-DOM/canvas/audio and drives `tick()` frame by frame with synthetic key events —
+DOM/canvas/audio and drives `tick()` frame by frame with synthetic key events:
 59 assertions covering the full playthrough (start → blocks → power-up → stomps
 → shell → pits → pipes → flag → splash → level 2 → win → game over → 1UP →
 pause/restart/mute → time-out), plus a render check for every screen state.

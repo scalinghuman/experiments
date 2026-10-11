@@ -21,7 +21,7 @@ The current build targets Fire TV Cube and Android TV streaming devices. It paus
 
 [Project brief](../projects/kids-meal-mode.md) · [All experiments](../projects/README.md)
 
-## Status — Phase 1 complete (family-usable on Fire TV)
+## Status: Phase 1 complete (family-usable on Fire TV)
 
 Phase 0 delivered a working Fire TV MVP. Phase 1 finished product iteration on real devices: UX polish, parent-gated flows, max meal timer, and a tested streaming-app compatibility matrix.
 
@@ -68,7 +68,7 @@ Android TV / Google TV first, then tablets and phones if the product shape fits.
 
 ### Phase 6 - Apple Platform Exploration
 
-iPadOS / iOS / tvOS later — more likely companion, camera, or parent-dashboard roles than a direct Fire TV overlay port.
+iPadOS / iOS / tvOS later: more likely companion, camera, or parent-dashboard roles than a direct Fire TV overlay port.
 
 ### Cross-Phase Principles
 

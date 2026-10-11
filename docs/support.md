@@ -57,5 +57,5 @@ compliance with local laws and regulations where you use it.
    for ADB install, USB debugging, and hotspot setup.
 4. Connect Google Glass XE to your iPhone Personal Hotspot, open the iPhone
    app, and confirm the connection indicator.
-5. On Glass, **tap** the **fact check** or **scan food** command — do not
+5. On Glass, **tap** the **fact check** or **scan food** command. Do not
    depend on “Ok Glass” voice wake.

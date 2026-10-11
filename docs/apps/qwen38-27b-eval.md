@@ -46,7 +46,7 @@ to jump; `Shift` or `X` to run; `P` to pause; `R` to restart; `M` to mute.
 ## What the artifact contains
 
 - 1,592 lines across three runtime files: HTML, CSS, and vanilla JavaScript
-- Canvas-rendered visuals and synthesized WebAudio effects—no external assets
+- Canvas-rendered visuals and synthesized WebAudio effects, with no external assets
 - Two levels with movement, variable-height jumping, blocks, power-ups,
   enemies, shells, pits, pipes, a timer, flagpole finishes, pause, and restart
 - A headless Node test harness with **59 passing assertions** across gameplay
@@ -62,7 +62,7 @@ itself did not require an internet connection or an inference bill.
 
 The broader point is not that every task should be generated unattended. It is
 that useful, testable software can increasingly be prototyped on personal
-hardware—where the marginal cost looks much closer to electricity than a
+hardware, where the marginal cost looks much closer to electricity than a
 per-request cloud bill.
 
 ## Tools used
