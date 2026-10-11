@@ -8,11 +8,16 @@ maintained for learning and personal use, not as a paid product or subscription
 service. Individual experiments may have free App Store apps, personal sideload
 builds, source artifacts, or documentation only.
 
-> Human + Machines >> Human | Machines
+> Humans + Machines >> Humans | Machines
 
 Created and maintained by
 [Srikantha Ballani (@c0smicdirt)](https://github.com/c0smicdirt) as part of
 [Scaling Human](https://github.com/scalinghuman).
+
+**[Project directory](https://scalinghuman.ai/#projects)** ·
+[Project briefs](docs/projects/README.md) ·
+[Support](https://scalinghuman.ai/support.html) ·
+[Contact](https://scalinghuman.ai/contact.html)
 
 ## Explore the projects
 
@@ -38,6 +43,16 @@ This is a collection rather than one installable application. Start with an
 individual project's page for its scope, status, installation options, and
 limitations. The existing [source-available license](LICENSE) governs the
 published repository; it is not an unrestricted open-source license.
+
+The [website](https://github.com/scalinghuman/website) maintains the public
+project pages, support and privacy URLs. This repository keeps shared artifacts,
+guides and releases. Private app implementations remain separate. The
+[organization overview](https://github.com/scalinghuman) connects the repositories;
+[the maintainer's profile](https://github.com/c0smicdirt) covers other interests.
+
+Published app, document and download paths stay stable when navigation changes.
+See the website's [link policy](https://github.com/scalinghuman/website/blob/main/docs/link-policy.md)
+before moving files, changing release assets or renaming a repository.
 
 ## Google Glass companion details
 

@@ -1,7 +1,12 @@
 # Scaling Human Experiments
 
-Hardware + AI experiments exploring how machines can extend human perception,
-memory, judgment, and capability.
+Personal, noncommercial experiments with hardware, AI, apps, games and local
+computing. Built to learn how machines can extend human perception, memory,
+judgment and capability.
+
+[Explore all project briefs](projects/README.md) or visit the
+[website project directory](https://scalinghuman.ai/#projects) for availability,
+downloads and project pages. Private implementations are maintained separately.
 
 ## App Pages
 
@@ -36,7 +41,7 @@ RT Library is a co-op shareholder-built catalog for the shared library room at R
 
 Kids Meal Mode is a Fire TV / Android TV experiment that uses timed bite prompts
 and parent PIN gates so children keep eating during screen time. Current
-distribution is private sideload.
+distribution is a free personal/family sideload APK; source remains private.
 
 [App page](apps/streaming-devices-kids-meal-mode.md)
 
@@ -46,6 +51,20 @@ An offline, one-shot local-model experiment: build and play a self-contained
 Super Mario-style browser game with no cloud inference or external assets.
 
 [Project page](apps/qwen38-27b-eval.md)
+
+### Book Cricket
+
+A nostalgic page-flip cricket game, in development.
+
+[Project brief](projects/book-cricket.md) · [Website](https://scalinghuman.ai/apps/book-cricket)
+
+### Ring Local and Strap Local
+
+Independent personal-use projects for direct Oura Ring 4 and WHOOP 5.0 Bluetooth
+connections to iPhone. Project setup only; native apps and device validation are
+pending.
+
+[Ring Local](projects/ring-local.md) · [Strap Local](projects/strap-local.md)
 
 ## Contact
 
