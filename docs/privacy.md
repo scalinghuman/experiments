@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: July 8, 2026
+Last updated: October 11, 2026
 
 Scaling Human builds Hardware + AI tools that extend human perception and
 capability. This policy covers the Food Scanner and Glasshole iOS apps.
@@ -64,3 +64,20 @@ For privacy questions or support, contact:
 
 - Email: srikantha.ballani@gmail.com
 - GitHub: <https://github.com/scalinghuman/experiments>
+
+## Local history and deletion
+
+Both apps save history on your iPhone. Use the history controls to delete
+individual results or clear saved history. Images saved to Photos must be deleted
+from Photos separately. Removing local history does not remove content already
+sent to another provider or saved elsewhere.
+
+## Provider destinations
+
+PocketPal uses the endpoint configured in Settings, with localhost as its default.
+Ollama and custom endpoints can be on your network or on the internet. The
+configured destination determines where images or transcripts are processed.
+External services apply their own privacy and retention policies.
+
+The [website privacy page](https://scalinghuman.ai/privacy.html) also describes
+website analytics and links to the separate policies for other projects.

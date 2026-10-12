@@ -1,8 +1,8 @@
 # Project directory
 
-Personal, noncommercial hardware, AI and app experiments in one collection.
+Personal, noncommercial projects and community contributions in one collection.
 The [website directory](https://scalinghuman.ai/#projects) provides the public
-pages; these briefs link each experiment to its existing artifacts and status.
+pages; these briefs link each project to its existing artifacts and status.
 
 | Project brief | Availability | Public page |
 |---|---|---|
@@ -10,6 +10,7 @@ pages; these briefs link each experiment to its existing artifacts and status.
 | [Glasshole AI](glasshole.md) | Free iPhone app and Glass companion | [Website](https://scalinghuman.ai/apps/glasshole) |
 | [Kids Meal Mode](kids-meal-mode.md) | Free personal/family sideload APK; private source | [Website](https://scalinghuman.ai/apps/streaming-devices-kids-meal-mode) |
 | [Local AI game experiment](local-ai-game.md) | Browser game and generated source | [Website](https://scalinghuman.ai/apps/qwen38-27b-eval) |
+| [RT Library](rt-library.md) | iPhone and iPad catalog for co-op shareholders | [Website](https://scalinghuman.ai/apps/rt-library) |
 | [Book Cricket](book-cricket.md) | In development | [Website](https://scalinghuman.ai/apps/book-cricket) |
 | [Smart Ring Local](ring-local.md) | Project setup; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/ring-local.html) |
 | [Smart Strap Local](strap-local.md) | Project setup; native app and hardware validation pending | [Website](https://scalinghuman.ai/apps/strap-local.html) |
