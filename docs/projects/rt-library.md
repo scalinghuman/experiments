@@ -4,6 +4,9 @@ A personal community contribution: an iPhone and iPad catalog for the shared
 library at Riviera Towers West New York. Built for co-op shareholders to browse
 books by title, author and genre.
 
+[Download free on the App Store](https://apps.apple.com/us/app/rt-library/id6789365604).
+Requires iOS 17 or iPadOS 17 or later.
+
 ## Current release
 
 Version 1.0 includes 653 OCR-derived book candidates across 50 genres. Shelf
